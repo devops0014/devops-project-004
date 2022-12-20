@@ -1,5 +1,5 @@
 ---
-- hosts: dev
+- hosts: aws_ec2
   become: yes
   remote_user: ec2-user
   gather_facts: true
